@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+     <!--SECCION DE META DATA-->
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="imagen/WEB.png" type="image/x-icon">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML, CSS, JavaScript</title>
+    <meta name="description" content="Pagina de Ejemplo para Proyecto Web Basico con HTML5, CSS,  Git y Git-Hub de IHC">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="ING. JUANCITO PEÑA">
+    <meta name="copyright" content="https://advisertecnology.com/" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+  </head>
+  <body>
+    <div class="container">
+       <!--ENCABEZADO-->
+        <header>
+          <h1>BIENVENIDOS A MI MINI-BLOG</h1>
+        </header> 
+      <!--NAVEGACION-->
+      <nav>
+ 
+        <div class="topnav" id="myTopnav">
+          <a href="index.html">inicio</a>
+          <a href="sobremi.html"class="active">Sobre Mi</a>
+          <a href="curso.html">Cursos</a>
+          <a href="contactos.html">Contactos</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+      </nav>
+    <!--CONTENIDO-->
+    <section id="contenido">
+
+      <!--ARTICULOS-->
+      <article>
+        <h2>¿Quien Soy?</h2>
+
+     
+        <hr>
+        <p class="Articulo1">
+            Mi Nombres Juancito Peña Vizcaino, soy Egresado de la Universidad Dominicana O&M, como Ingeniero en Sistemas y
+            Computación, con Postgrado en Ingeniería de Software y una Maestría en Ingeniería de Sistemas Mención Gerencial..</p>
+
+            <img class="foto" src="https://juancitopena.github.io/Mi_Sitio_Web/img/JUANCITO.png" alt="Foto"><br>
+            <h3 class="sklill">Data Analyst | Front-end | Back-end |Xamarin | C# |XAML |Net Maui | instructor | Blogger</h3>
+
+        <p class="Articulo1">
+          Soy un entusiasta de la ciencia de datos con un gran interés en el análisis de datos. Mi pasión por el Codigo y los Numeros
+          alimenta mi búsqueda de conocimiento y desarrollo personal en el uso y la aplicación del Analisis de Datos.
+          <br> <br>
+          Reconozco el valor de las tecnologías, y los aportes a las mejoras productivas, de negocios y educación que brindan.
+          Tengo mas de 10 años de experiencia trabajando con Sistemas de Información (CRM, y ERP), orientados a procesos
+          tecnológicos, administrativos, productivos y de marketing, he trabajado en implementaciones de Software para las mejores
+          tomas de decisiones con Inteligencia de Datos, desde el problema, los requerimientos hasta el testing, lanzamiento, y
+          entrenamiento del personal, y como ingeniero tengo experiencia y pasión por el Desarrollo Web Frontend / Backend con (HTML, CSS,
+          JavaScrip, PHP, Python, C#). 
+          <br> <br>
+          Conocimientos avanzados en Administracion de Redes y Cableado Estructurado, y manejo Sistemas Operativos Windows Server, Linux, Sistemas de
+          Telefonía IP (Grandstream, Issabel, Elastix), Ciberseguridad, Firewall, ACL, Proxy, P.SI., Routing y Switching, entre otras disciplinas. 
+        </p> 
+     
+          </article> 
+          <hr>
+          <div class="redes">
+            <h2>Sigueme en mi Redes Sociales</h2>
+
+            <!-- Agregamos font awesome icons -->
+             <a href="#" class="fa fa-linkedin-square"  style="font-size:30px"></a>
+             <a href="#" class="fa fa-youtube-square" style="font-size:30px"></a>
+             <a href="#" class="fa fa-facebook-square" style="font-size:30px"></a>
+             <a href="#" class="fa fa-twitter-square" style="font-size:30px"></a>
+             <a href="#" class="fa fa-github-square" style="font-size:30px"></a>
+        
+          </div>
+      
+
+</section>
+        <!--PUBLICIDAD-->
+        <aside>
+          <h2>😁(Finge hasta que lo consigas)</h2>
+          <img src="https://static.wixstatic.com/media/ec7115_a6f8311d036040e7bd440526189a3d8f~mv2.gif" alt="">
+          <br>
+          <h2>📊Que necesitas saber de Data Science</h2>
+          <iframe  class="video" src="https://www.youtube.com/embed/Lt2P88q0Y68" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <br>
+          
+        
+          <br>
+        
+          <h2>🌍La ruta para aprender Desarrollo Web</h2>
+          <iframe class="video"  src="https://www.youtube.com/embed/ExsGyZDBlJQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <br>
+          
+          
+          
+        
+        
+        </aside>
+        
+        <div class="clearfix" ></div>
+
+          <!--FOOTER O PIE DE PAGINA-->
+          <footer>
+            <p class="footer"> @ 2021 Creado por Juancito Peña: <a href="https://www.20minutos.es/noticia/1147272/0/" target="_blank" >Linkedin</a></p>
+          </footer>
+        </div>
+
+     <!--FUNCION JAVASCRIPT PARA EL MENU-->
+
+        <script>
+          function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+              x.className += " responsive";
+            } else {
+              x.className = "topnav";
+            }
+          }
+          </script>
+
+  </body>
+</html>
