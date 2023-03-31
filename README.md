@@ -1,11 +1,7 @@
 # Mini_Blog_HTML_CSS_JS
 Mini_Blog_HTML_CSS_JS
 
-### Creacion de un Sitio Web mini-blog con HTML5, CSS3, JAVASCRIPT, BOOTSTRAP, Git, Github Page,  Con Diseño Reponsive Escalable.
+### Creacion de un Sitio Web mini-blog basando en el universo de Dragon Ball, utilizando etiquetas básicas de HTML y aplicando CSS, JAVASCRIPT y BOOTSTRAP. Para subir la página web oficialmente se utilizó Git y Github Page. Y por último se le aplicó un Diseño Reponsive Escalable.
 
-![](imagen/miniblog.png)
+![](imagen/SSJRose.jpg)
 
-
-## URL DEL PROYECTO:
-
-https://juancitopena.github.io/Mini_Blog_HTML_CSS_JS/
